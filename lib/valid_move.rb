@@ -7,7 +7,7 @@ def valid_move?(array, index)
     elsif index > 1
     false
 else
-  "Valid move"
+  true
   end
 end
     
