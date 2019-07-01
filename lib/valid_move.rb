@@ -1,10 +1,10 @@
 # code your #valid_move? method here
 
 def valid_move?(array, index)
-  if position_taken? == false
+  if position_taken?
     true
   else
-    false
+    false else
   end
 end
     
