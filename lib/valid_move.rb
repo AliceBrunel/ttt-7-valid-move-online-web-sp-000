@@ -2,9 +2,9 @@
 board = ["","","","","","","","",""]
 
 def valid_move?(array, index)
-  if (position_taken?(array, index) == true) || (index.between(1,9) == false)
+  if (position_taken?(array, index) == true) || (index.between?(1,9) == false)
     false
-elsif (position_taken?(array, index) == false) && (index.between(1,9) == true)
+elsif (position_taken?(array, index) == false) && (index.between?(1,9) == true)
   true
   end
 end
