@@ -2,7 +2,9 @@
 
 def valid_move?(array, index)
   if position_taken? == true
-    
+else
+  "Invalid move" else
+  "Valid move"
   end
 end
     
