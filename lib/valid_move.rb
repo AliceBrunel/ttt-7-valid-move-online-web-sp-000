@@ -3,9 +3,9 @@ board = [" ", " ", " ", " ", " ", " ", "X", " ", " "]
 
 def valid_move?(array, index)
   if position_taken?(array, index)
-    true
+    false
 else
-  "Invalid move"
+  "Valid move"
   end
 end
     
