@@ -1,6 +1,4 @@
 # code your #valid_move? method here
-board = [" ", " ", " ", " ", " ", " ", "X", " ", " "]
-
 def valid_move?(array, index)
   if position_taken?(array, index) || index > 1
     false
