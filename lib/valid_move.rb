@@ -6,8 +6,7 @@ def valid_move?(array, index)
   end
 end
     
-
-# re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
+board[" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(array_board, index_number)
     if (array_board[index_number] == " ") || (array_board[index_number] == "")
