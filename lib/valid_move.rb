@@ -6,7 +6,7 @@ def valid_move?(array, index)
   end
 end
     
-board[" ", " ", " ", " ", " ", " ", "X", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", "X", " ", " "]
 
 def position_taken?(array_board, index_number)
     if (array_board[index_number] == " ") || (array_board[index_number] == "")
