@@ -1,4 +1,5 @@
 # code your #valid_move? method here
+board = [" ", " ", " ", " ", " ", " ", "X", " ", " "]
 
 def valid_move?(array, index)
   if position_taken? == true
@@ -7,12 +8,12 @@ else
   end
 end
     
-board = [" ", " ", " ", " ", " ", " ", "X", " ", " "]
 
-def position_taken?(array_board, index_number)
-    if (array_board[index_number] == " ") || (array_board[index_number] == "")
+
+def position_taken?(array, index)
+    if (array[index] == " ") || (array[index] == "")
     false
-    elsif array_board[index_number] == nil
+    elsif array[index] == nil
     false
   else
     true
