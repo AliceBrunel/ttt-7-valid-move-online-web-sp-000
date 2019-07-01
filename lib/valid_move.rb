@@ -3,6 +3,8 @@
 def valid_move?(array, index)
   if position_taken? == false
     true
+  else
+    false
   end
 end
     
