@@ -6,8 +6,6 @@ elsif position_taken?(array, index) == false
   true
   end
 end
-    
-
 
 def position_taken?(array, index)
     if (array[index] == " ") || (array[index] == "")
